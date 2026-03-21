@@ -5,11 +5,12 @@ import logging
 
 logging.basicConfig(level=logging.INFO)
 project_name= "ds_project"
+
 list_of_files=[
 
-    #".github/workflows/.gitkeep",  # for sstroing all the actions inside github
-    f"src/{project_name}/__init__.py",  # for making src as package
-    f"src/{project_name}/components/__init__.py",  # for making components as package
+    #".github/workflows/.gitkeep",  
+    f"src/{project_name}/__init__.py",  
+    f"src/{project_name}/components/__init__.py", 
     f"src/{project_name}/components/data_ingestion.py",
     f"src/{project_name}/components/data_transformation.py",  
     f"src/{project_name}/components/model_trainer.py",
